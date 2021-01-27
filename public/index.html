@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name ='viewport' content='width=device-width,initial-scale=1.0'>
+    <title>Weather-App</title>
+    <!-- CSS only -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,100;0,300;1,300&display=swap" rel="stylesheet">  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <div class="container-fluid main_menu">
+            <div class="row">
+                <div class="col-md-10 col-12 mx-auto">
+                    <nav class="navbar navbar-expand-lg ">
+                        <div class="container-fluid">
+                          <a class="navbar-brand" href="#"><i class="icn far fa-snowflake"></i> Weather-App <i class="icn far fa-snowflake"></i></a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="nav-at collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="nav-at navbar-nav mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="weather">Weather-Page</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="about">About-Us</a>
+                              </li>
+                          </div>
+                        </div>
+                      </nav>
+                </div>
+            </div>
+        </div>
+        <!----Main header--->
+        <div class="container-fluid main_header">
+            <div class="row">
+                <div class="col-md-10 col-12 mx-auto">
+                    <div class="row">
+                        <!--left div-->
+                        <div class="col-md-6 col-12 main_header_left">
+                            <p>Welcome to my Weather App</p>
+                            <h1>Get the latest <span class="txt_clr">Weather</span> info here</h1>
+                            <a href="/weather"><button>check now</button></a>
+                        </div>
+                        <!--right div-->
+                        <div class="col-md-6 col-12 main_header_right">
+                            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                                <ol class="carousel-indicators">
+                                  <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+                                  <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+                                  <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="images/1.png" height="320px" class="w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                      <h5>Going for a picnic check us</h5>
+                                      <p>Know weather to take umberalla with you or not , check weather updates here</p>
+                                    </div>
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="images/2.png" class="w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                      <h5>Your local weather</h5>
+                                      <p>Know your local weather with a single click</p>
+                                    </div>
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="images/3.png" height="320px" class="w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                      <h5>Weather around the globe</h5>
+                                      <p>Check local weather around the globe just using name of city</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </a>
+                              </div>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--footer code-->
+        <footer>
+            <p>Created with 💖 by Saket</p>
+        </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>    
+</body>    
+</html>
